@@ -11,7 +11,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`http://localhost:6001/assets/${image}`}
+        src={`https://social-media-app-nojw.onrender.com/assets/${image}`}
       />
     </Box>
   );
